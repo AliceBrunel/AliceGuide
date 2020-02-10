@@ -1,8 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\app",
+    "\\app\\assets",
+    "\\app\\assets\\javascripts",
+    "\\app\\assets\\stylesheets",
+    "\\app\\controllers",
+    "\\app\\views",
+    "\\app\\views\\application",
+    "\\app\\views\\layouts",
     "\\config"
   ],
-  "SelectedNode": "\\config\\database.yml",
+  "SelectedNode": "\\app\\views\\application\\home.html.erb",
   "PreviewInSolutionExplorer": false
 }
