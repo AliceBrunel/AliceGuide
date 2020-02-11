@@ -4,13 +4,14 @@
     "\\app",
     "\\app\\assets",
     "\\app\\assets\\javascripts",
-    "\\app\\assets\\stylesheets",
-    "\\app\\controllers",
     "\\app\\views",
-    "\\app\\views\\application",
-    "\\app\\views\\layouts",
-    "\\config"
+    "\\app\\views\\devise",
+    "\\app\\views\\devise\\registrations",
+    "\\app\\views\\devise\\sessions",
+    "\\config",
+    "\\db",
+    "\\db\\migrate"
   ],
-  "SelectedNode": "\\app\\views\\application\\home.html.erb",
+  "SelectedNode": "\\app\\assets\\javascripts\\application.js",
   "PreviewInSolutionExplorer": false
 }
