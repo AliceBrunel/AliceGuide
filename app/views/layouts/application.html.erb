@@ -16,37 +16,43 @@
   <body>
   
 <body>
-			<nav id="sidenav" class="navbar navbar-dark bg-dark collapse show width">
-				<a class="navbar-brand" href="#">Navbar</a>
 
-				<div id="navbarColor02">
-					<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-					<a class="nav-link" href="#">Features</a>
-					</li>
-					<li class="nav-item">
-					<a class="nav-link" href="#">Pricing</a>
-					</li>
-					<li class="nav-item">
-					<a class="nav-link" href="#">About</a>
-					</li>
-					</ul>
-				</div>
-			</nav>	
 
-	<div class="container">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<nav id="sidenav" class="navbar navbar-dark bg-dark collapse show width">
+					<a class="navbar-brand" href="#">Navbar</a>
 
-		<p class="notice"><%= notice %></p>
-		<p class="alert"><%= alert %></p>
+					<div id="navbarColor02">
+						<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link" href="#">Features</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link" href="#">Pricingdddddddddddddddddddddddddd</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link" href="#">About</a>
+						</li>
+						</ul>
+					</div>
+				</nav>	
+			</div>
+			<div class="col">
+				<p class="notice"><%= notice %></p>
+				<p class="alert"><%= alert %></p>
 
-		<button role="button" class="btn btn-danger" data-toggle="collapse" data-target="#sidenav">
-			Show
-		</button>
-		<%= yield %>
-	</div>
-</div>
+				<button role="button" class="btn btn-danger" data-toggle="collapse" data-target="#sidenav">
+					Show
+				</button>
+				<%= yield %>
+			</div>
+		</div>
+	<div>
+
   </body>
 </html>
